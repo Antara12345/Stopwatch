@@ -1,0 +1,59 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: hsla(209, 89%, 41%, 0.527);
+  width: 94.5vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 2rem 5rem 2rem;
+}
+.App > h1 {
+  /* color: rgb(6, 6, 27); */
+  font-weight: 900;
+  color: #121212;
+
+  /* 
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3); */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* right: 50%; */
+  /* transform: translate(50%, -50%); */
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 6em;
+  /* font-weight: 700; */
+  color: #272525;
+  text-shadow: 1px 1px 1px #243b91, 1px 2px 1px #243b91, 1px 3px 1px #243b91,
+    1px 4px 1px #243b91, 1px 5px 1px #243b91, 1px 6px 1px #243b91,
+    1px 7px 1px #243b91, 1px 8px 1px #243b91, 1px 9px 1px #243b91,
+    1px 10px 1px #243b91, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+
+@media only screen and (max-width: 450px) {
+  /* body {
+    background-color: lightblue;
+  } */
+
+  .App > h1 {
+    /* color: rgb(6, 6, 27); */
+    font-weight: 900;
+
+    font-size: 3em;
+  }
+}
+@media (min-width: 450px) and (max-width: 800px) {
+  .App > h1 {
+    /* color: rgb(6, 6, 27); */
+    font-weight: 900;
+
+    font-size: 4em;
+  }
+}
